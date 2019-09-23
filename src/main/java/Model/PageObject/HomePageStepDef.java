@@ -25,6 +25,9 @@ public class HomePageStepDef extends BasePage{
 		return new DashBoardPage(d);
 	}
 	
+	public void add(){
+		syso("printing the values");
+	}
 	
 
 }
