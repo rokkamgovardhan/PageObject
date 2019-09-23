@@ -70,4 +70,14 @@ public class HomePageTestScripts extends BaseTest{
 		m.put("ohio", 43054);
 		System.out.println(m.get("New York"));
 	}
+	
+	@Test
+	public void test2() {
+		
+		Map m = new LinkedHashMap();
+		m.put("New York", 10019);
+		m.put("ohio", 43054);
+		System.out.println(m.get("New York"));
+	}
+	
 }
