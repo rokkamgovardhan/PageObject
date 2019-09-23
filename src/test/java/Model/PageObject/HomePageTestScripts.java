@@ -80,4 +80,14 @@ public class HomePageTestScripts extends BaseTest{
 		System.out.println(m.get("New York"));
 	}
 	
+	@Test
+	public void abc() {
+		
+	}
+	
+	@Test
+	public void bbc() {
+		
+	}
+	
 }
