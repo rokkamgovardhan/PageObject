@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [SAmpleRUn]">
+  <listeners>
+    <listener class-name="Model.retryAnalyzer.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="2" verbose="5" name="sampleTest(failed)">
+    <parameter name="passw0ord" value="passw0rd"/>
+    <parameter name="username" value="jalapathi"/>
+    <groups>
+      <run>
+        <include name="Functiona"/>
+        <exclude name="abc"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Model.PageObject.HomePageTestScripts">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterclass"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="createDriver"/>
+          <include name="cbc"/>
+          <include name="beforeTesert"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- Model.PageObject.HomePageTestScripts -->
+    </classes>
+  </test> <!-- sampleTest(failed) -->
+</suite> <!-- Failed suite [SAmpleRUn] -->

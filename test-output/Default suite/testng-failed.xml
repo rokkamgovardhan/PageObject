@@ -5,9 +5,15 @@
     <classes>
       <class name="Model.PageObject.HomePageTestScripts">
         <methods>
-          <include name="test1"/>
+          <include name="beforeTest"/>
+          <include name="afterclass"/>
           <include name="tearDown"/>
-          <include name="intialiseDriver"/>
+          <include name="test"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="createDriver"/>
+          <include name="beforeTesert"/>
+          <include name="aftertest"/>
         </methods>
       </class> <!-- Model.PageObject.HomePageTestScripts -->
     </classes>
